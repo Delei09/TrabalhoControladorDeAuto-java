@@ -1,0 +1,23 @@
+Aplicação para controlar um conjunto de automóveis.
+
+-Foi criado
+- Uma classe "Automóvel" que será uma superclasse.
+- As classes "Carro", "Moto" e "Caminhão", que herdam as características da classe "Automóvel".
+- Os automóveis devem possuir motor (que guarda a informação se está ligado ou desligado), número de rodas, número de portas e velocidade atual.
+- Todos os automóveis são criados com o motor desligado e a velocidade 0.
+- Ao criar um carro, moto ou caminhão, o sistema já define o número de portas e rodas automaticamente. Vamos convencionar carros com 4 portas, caminhão com duas e motos com 0.
+- Os automóveis devem possuir os métodos ligar, desligar, acelerar, diminuir e trocarPneus.
+- Ao ligar e desligar, o atributo motor deve ser alterado.
+- Todos os veículos possuem os mesmos métodos acelerar e diminuir, mas ao acelerar ou diminuir, os carros terão uma variação (para cima ou para baixo) de 10km/h, as motos terão uma variação de 20km/h e os caminhões de 5km/h (Só funciona se o automóvel estiver ligado).
+- Se o motorista acelerar e a velocidade passar do limite (110km/h para carros e motos, 80km/h para caminhões), o sistema deve imprimir um aviso.
+- O método trocarPneus deve exibir quanto você vai gastar, dado que um pneu custe R$150,00 (valor hipotético).
+- Por fim, você deve criar dois novos atributos que considere pertinentes para automóveis e criar métodos que manipulem esses atributos.
+- Um método "exibeEstado" que mostra se o carro está ligado ou desligado e a velocidade.
+
+No método principal do sistema.
+
+- Crie um carro, uma moto e um caminhão.
+- Ligue o carro, o caminhão e a moto.
+- Acelere duas vezes cada um dos três.
+- Troque os pneus do caminhão.
+- Exiba o estado dos três.
